@@ -1,0 +1,151 @@
+package teste;
+
+public class banco {
+    public <Conta> void main1 (String [] args) {
+    	@SuppressWarnings("unused")
+		int numero;
+		@SuppressWarnings("unused")
+		String cliente;
+		@SuppressWarnings("unused")
+		double saldo;
+		@SuppressWarnings("unused")
+		double limite;
+    @SuppressWarnings("unused")
+	 class conta {
+    	@SuppressWarnings("unchecked")
+		Conta conta = (Conta) new conta();
+    	private double numero;
+    	private String getNome() {
+    		return cliente;
+    	}
+    	class conta extends banco {
+    		private int numero;
+    		private String cliente;
+    	    private double saldo;
+    	    private double limite;
+    	    
+    	    public String getNome()  {
+    	    	return cliente;
+    	    }
+			public void setCliente (String nome) {
+				cliente = "Bianca";			    	   
+			     }
+			public double getNumero() {
+				return numero;
+			}
+			public void setNumero (double numero) {
+				this.numero = 220;
+			}
+			public double getSaldo() {
+			    return saldo;	 
+			     }
+			public void setSaldo (double saldo) {
+			    	 this.saldo = saldo;
+			         saldo = 1000.0;
+			}
+			public double getLimite() {
+				return limite;
+			}
+			public void setLimite (double limite) {
+				this.limite = 10000.0;
+			}
+			System.out.println(conta.getCliente());
+			System.out.println(conta.getSaldo());
+			System.out.println(conta.getLimite());
+    	
+    	class conta2 extends banco {
+    	    public <Conta> void main (String[] args) {
+			     Conta conta2;
+			     int numero;
+			     numero = 153;
+			     String cliente;
+			     cliente = "Claudia";
+			     double saldo;
+			     saldo = 1250.0;
+			     double limite;
+			     limite = 5000.0;
+		    		private int numero;
+		    		private String cliente;
+		    	    private double saldo;
+		    	    private double limite;
+		    	    
+		    	    public String getNome()  {
+		    	    	return cliente;
+		    	    }
+					public void setCliente (String nome) {
+						cliente = "Claudia";			    	   
+					     }
+					public double getNumero() {
+						return numero;
+					}
+					public void setNumero (double numero) {
+						this.numero = 153;
+					}
+					public double getSaldo() {
+					    return saldo;	 
+					     }
+					public void setSaldo (double saldo) {
+					    	 this.saldo = saldo;
+					         saldo = 1250;
+					}
+					public double getLimite() {
+						return limite;
+					}
+					public void setLimite (double limite) {
+						this.limite = 5000.0;
+					}
+			     System.out.println(conta.getCliente());
+			     System.out.println(conta.getSaldo());
+			     System.out.println(conta.getLimite());
+    	}
+    	class conta3 extends banco {    
+    	    public <Conta> void main (String[] args) {
+			     Conta conta3;
+			     int numero;
+			     numero = 590;
+			     String cliente;
+			     cliente = "Rihanna";
+			     double saldo;
+			     saldo = 60000.0;
+			     double limite;
+			     limite = 100000.0;
+			     System.out.println(conta.getCliente());
+			     System.out.println(conta.getSaldo());
+			     System.out.println(conta.getLimite());
+		     }
+    	} 
+    	class conta4 extends banco {    
+    	    public <Conta> void main (String[] args) {
+			     Conta conta4;
+			     int numero;
+			     numero = 200;
+			     String cliente;
+			     cliente = "Irene";
+			     double saldo;
+			     saldo = 7500.0;
+			     double limite;
+			     limite = 10500.0;
+			     System.out.println(conta.getCliente());
+			     System.out.println(conta.getSaldo());
+			     System.out.println(conta.getLimite());
+		     }
+    	}
+    	class conta5 extends banco {    
+    	    public <Conta> void main (String[] args) {
+			     Conta conta5;
+			     int numero;
+			     numero = 197;
+			     String cliente;
+			     cliente = "Jurema";
+			     double saldo;
+			     saldo = 30000.0;
+			     double limite;
+			     limite = 90000.0; 
+			     System.out.println(conta.getCliente());
+			     System.out.println(conta.getSaldo());
+			     System.out.println(conta.getLimite());
+		     }
+    	}    
+	  }
+    }
+}
